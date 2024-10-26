@@ -11,4 +11,4 @@ def teste():
 def teste2():
     return Response(f"Lorem Ipsum Dolor Sit Amed ", status=200, mimetype="text/plain")
 
-app.run()
+app.run(host="0.0.0.0", port=7777)
